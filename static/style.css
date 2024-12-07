@@ -1,0 +1,106 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efcfa0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Page Styles */
+.login-page .login-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container .btn {
+    background-color: #00060d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Chat Page Styles */
+.chat-page .chat-container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chat-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.chat-container ul li {
+    margin: 5px 0;
+    padding: 8px;
+    background: #56a0ef;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.chat-container form {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.chat-container .btn {
+    padding: 10px;
+    background-color: #000306;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chat-container .btn:hover {
+    background-color: #0056b3;
+}
